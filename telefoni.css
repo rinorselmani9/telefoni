@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.telefoni{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    height: 600px;
+    background-color:lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.number{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.messages{
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+select{
+    padding: 10px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+}
+
+button{
+    margin: 5px;
+    padding: 15px;
+}  
+
+p{
+    color: red;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#call{
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+#stop{
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+#fill{
+    background-color: darkblue;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+

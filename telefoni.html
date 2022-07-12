@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telefoni.css">
+    <title>Telefoni</title>
+</head>
+<body>
+
+    <div class="telefoni">
+        <div class="number">
+            <select name="" id="hyrjet">
+                <option value="038">038</option>
+                <option value="044">044</option>
+                <option value="049">049</option>
+                <option value="+1">+1</option>
+            </select>
+        
+        
+            <input type="number" name="number" id="number" placeholder="Sheno numrin...">
+        </div>
+        <div class="buttons">
+            <button type="button" onclick="thirr()" id="call">Thirr</button>
+            <button type="button" onclick="ndal()" id="stop">Ndal</button><br>
+            <button type="button" onclick="mbushe()" id="fill">Mbush llogarine</button><br>
+        </div>
+        <div class="messages">
+
+            <p id="message"></p>
+    
+            <h3 id="llogaria">Gjendja e llogarise:</h3><br>
+            <p>Verejtje: Llogaria mund te mbushet me 1$, 2$ dhe 5$</p>
+        </div>
+          
+    </div>
+
+    <script src="telefoni.js"></script>
+</body>
+</html>
